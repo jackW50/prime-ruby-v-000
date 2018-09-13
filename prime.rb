@@ -1,22 +1,22 @@
 # Add  code here!
-#def prime?(int)
- # if int > 1
-#    (2...int).to_a.none? {|n| int % n == 0}
-#  else 
-#    false 
- # end 
-#end 
-
 def prime?(int)
   if int > 1
-    if (2...int).to_a.find {|n| int % n == 0}
-      return false
-    else true
-    end
-  else
-    false
-  end
-end
+    (2...int).to_a.none? {|n| int % n == 0}
+  else 
+    false 
+  end 
+end 
+
+#def prime?(int)
+ # if int > 1
+#    if (2...int).to_a.find {|n| int % n == 0}
+   #   return false
+  #  else true
+ #   end
+#  else
+  #  false
+ # end
+#end
 
 #def prime?(int)
 #  range = (2...int).to_a
